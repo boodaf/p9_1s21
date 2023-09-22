@@ -1,19 +1,23 @@
 import java.util.scanner;
 
-public class p9_1s21{
-	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
-		System operacion;
-		System.out.println("Que tipo de operaciones deseas realizar");
-		System.out.println("escribala: Suma, Resta");
-		Operacion = teclado.nextLine()
+public class p9_1s21
+    public class void main(string[] args) [
+    	  Scanner teclado = new Scanner(System.in);
+    	  String operacion;
+    	  System.out.println("Que tipo de operacion desea realizar");
+    	  System.out.println("escribala: Suma, Resta, Division, Multiplicacion");
+    	  operacion = teclado.nextLine();
 
-		if (operacion.equals("Sumar")){
-			System.out.println("Haremos una suma");
-        }else if (operacion.equals("Resta")){
-        	System.out.println("Haremos una resta");
-        }else {
-        	System.out.println("No existe la operacion")
-        }
-	}
-}
+          if  (operacion.equals("Suma")) [
+          	       Sistem.out.println("Haremos una suma");
+          ] else if  (operacion.equals("Resta"))[
+          	       Sistem.out.println("Haremos una resta");
+          ] else if  (operacion.equals("Division"))[
+                   Sistem.out.equals("Haremos una division"));
+          ] else if  (operacion.equals("Multiplicacion"))[
+          	       Sistem.out.println("Haremos una multiplicacion");
+          ] else [
+                   Sistem.out.println("No exiete la operacion")       
+          ]	       
+    ]   
+]
